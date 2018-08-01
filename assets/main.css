@@ -1,0 +1,660 @@
+@charset "UTF-8";
+
+/* =================== RESET STYLESHEET START =================== */
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* =================== RESET STYLESHEET END =================== */
+
+html,
+body {
+	font-family: 'Verdana', serif;
+	font-size: 100%;
+	background-color: #000;
+	background: url(../img/woodbg.png) no-repeat center fixed;
+	background-size: cover;
+	height: 100%;
+}
+
+html{
+	overflow: auto;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/* =================== MAIN HEADER START =================== */
+.wrapper{
+	margin: 0 auto;
+	width: 95%;
+}
+
+a {
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	height: 55px;
+	background-color: #fff;
+	box-shadow: 0px 3px 2px #ccc;
+}
+
+header .logo{
+	position: absolute;
+	float: left;
+	width: auto;
+	margin-left: 20px;
+}
+
+header .logo img{
+	float: left;
+	height: 25px;
+}
+
+header .nav-login{
+	float: right;
+	right: 0;
+	top: 0;
+	display: block;
+	margin: 10px auto;
+	position: relative;
+	width: 100%;
+	z-index: 999;
+}
+
+header .nav-login a{
+	text-decoration: none;
+	float: right;
+	color: #000;
+	margin: 10px;
+	text-shadow: 1px 1px 2px #969696;
+	font-size: 95%;
+}
+
+header .nav-login a:hover{
+	color: #949392;
+}
+
+header .nav-login .btn-link{
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #6e6a68;
+	color: #ccc;
+}
+
+header .nav-login .btn-link:hover{
+	color: #949392;
+}
+
+.register{
+	float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    #desktopView,
+	.desktopView{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #mobileView,
+	.mobileView{
+        display: none;
+    }
+}
+/* =================== MAIN HEADER END =================== */
+
+/* =================== ENTRY START =================== */
+.main-container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-container h1 {
+	font-size: 40px;
+	text-align: center;
+	color: #111;
+	padding: 10px 0;
+}
+
+.main-wrapper {
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+}
+
+.form-wrapper{
+	margin: 20px auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 3px 2px #ccc;
+}
+
+.form-wrapper h1{
+	font-size: 30px;
+	font-style: italic;
+	color: #5bcdf0;
+}
+
+.form-wrapper h2{
+	font-size: 20px;
+	font-style: italic;
+	color: #4497b0;
+}
+
+#myCarousel{
+	box-shadow: 0px 2px 10px #525252, 0px -2px 10px #ababab;
+	margin-bottom: 50px;
+}
+
+.carousel-inner .item img{
+	min-height: 200px;
+}
+
+.carousel-caption a{
+	border: 5px solid #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 1px 1px 10px #525252;
+	text-shadow: 1px 1px 10px #525252;
+}
+
+.carousel-caption a:hover{
+	color: #ccc;
+}
+/* =================== ENTRY END =================== */
+
+/* =================== FORM START =================== */
+.hint{
+	display: none;
+	color: #ff1100;
+	float: right;
+	padding: 3px;
+	font-size: 10px;
+}
+
+.required{
+	color: #ff1100;
+	float: left;
+	padding: 3px;
+	font-size: 10px;
+}
+
+.modal .visible{
+	display: block;
+}
+
+.modal .hide{
+	display: none;
+}
+
+.control-panel{
+	width: 100%;
+	height: 53px;
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 10px;
+}
+
+.control-panel h1{
+	float: left;
+	font-size: 25px;
+}
+
+.control-panel button{
+	float: right;
+	margin: auto 5px;
+}
+
+input[type=checkbox], 
+input[type=radio]{
+	margin: 0;
+}
+
+.fa-asterisk{
+	position: relative;
+	top: -5px;
+	right: -5px;
+	color: #8B0000;
+	font-size: 8px;
+}
+/* =================== FORM END =================== */
+
+/* =================== FORM START =================== */
+div.demo {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+div.demo span {
+    display: table-cell;
+    text-align: center;
+}
+/* =================== FORM END =================== */
+
+/* =================== MID NAV START =================== */
+.selection{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.selection a{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 90%;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #000;
+	min-width: 20%;
+	width: auto;
+	overflow: auto;
+	margin: 3px auto;
+	box-shadow: 1px 1px 10px #525252;
+}
+
+@media screen and (max-width: 1000px) {
+	.selection{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.selection{
+		width: 100%;
+	}
+	
+	.selection a{
+		font-size: 80%;
+		padding: 5px 10px;
+	}
+}
+/* =================== MID NAV END =================== */
+
+/* =================== MID ITEMS START =================== */
+#aboutus{
+	background-color: #fff;
+	background: url(../img/notebg.png) repeat fixed;
+	background-repeat: repeat;
+	text-align: center;
+	color: #fff;
+	min-height: 350px;
+	height: auto;
+	overflow: auto;
+	font-family: "Courier New", Courier, monospace;
+	box-shadow: 0px 2px 10px #ababab, 0px -2px 10px #ababab;
+	margin: 50px auto 50px auto;
+	width: 50%;
+	padding: 20px;
+	word-wrap: break-word;
+}
+
+#aboutus h1{
+	color: #6b5a7a;
+	font-size: 220%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#aboutus p{
+	color: #365d7e;
+	padding: 10px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#learningtools{
+	background-color: #bd6981;
+	width: 100%;
+	min-height: 360px;
+	height: auto;
+	overflow: hidden;
+	box-shadow: 0px 2px 10px #ababab, 0px -2px 10px #ababab;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#learningtools .tools{
+	width: 60%;
+	margin: 0 auto;
+}
+
+#learningtools h1{
+	font-family: "Courier New", Courier, monospace;
+	color: #fff;
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#learningtools p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 120%;
+	bottom: -100px;
+	position: relative;
+}
+
+#learningtools .lessonImg{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background:url(../img/lesson_.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .lessonImg:hover{
+	background:url(../img/lesson.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .youtubeImg{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background:url(../img/youtube_.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .youtubeImg:hover{
+	background:url(../img/youtube.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .fcImg{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background:url(../img/flashcard_.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .fcImg:hover{
+	background:url(../img/flashcard.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .gameImg{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background:url(../img/game_.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .gameImg:hover{
+	background:url(../img/game.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .circuitImg{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background:url(../img/circuit_.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .circuitImg:hover{
+	background:url(../img/circuit.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .forumImg{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background:url(../img/forum_.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .forumImg:hover{
+	background:url(../img/forum.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .quizImg{
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	background:url(../img/quiz_.png) no-repeat center;
+	background-size: contain;
+}
+
+#learningtools .quizImg:hover{
+	background:url(../img/quiz.png) no-repeat center;
+	background-size: contain;
+}
+
+#contactus{
+	background-color: #fff;
+	width: 50%;
+	margin: 20px auto;
+	padding: 10px;
+	min-height: 200px;
+	height: auto;
+	overflow: auto;
+	box-shadow: 0px 2px 10px #ababab, 0px -2px 10px #ababab;
+}
+
+#contactus .contact-box{
+	padding: 10px;
+	width: 100%;
+	margin: 5px auto;
+}
+
+#contactus .contact-box h1{
+	font-family: "Courier New", Courier, monospace;
+	color: #35666e;
+	font-size: 200%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#contactus .contact-box label{
+	font-size: 90%;
+}
+
+#contactus .contact-box input{
+	border-color: #ccc;
+}
+
+@media screen and (min-width: 430px) and (max-width: 740px) {
+	#aboutus h1,
+	#learningtools h1,
+	#learningtools h1,
+	#contactus .contact-box h1{
+		font-size: 180%;
+	}
+	
+	#learningtools .tools,
+	#contactus .contact-box{
+		width: 70%;
+	}
+	
+	#contactus,
+	#aboutus{
+		width: 80%;
+	}		
+}
+
+@media screen and (max-width: 430px) {
+	#aboutus h1,
+	#learningtools h1,
+	#learningtools h1,
+	#contactus .contact-box h1{
+		font-size: 130%;
+	}
+
+	#learningtools .tools,
+	#contactus .contact-box{
+		width: 90%;
+	}
+	
+	#contactus,
+	#aboutus{
+		width: 95%;
+	}		
+}
+
+/* =================== MID ITEMS END =================== */
+
+/* =================== FOOTER START =================== */
+#footer{
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	min-height: 100px;
+	height: auto;
+	background: #262626;
+	box-shadow: 0px -1px 10px #525252;
+	margin-top: 50px;
+	padding: 20px 20px;
+}
+
+#footer .siteMap{
+	margin: 0 auto;
+	display: table;
+	text-align: center;
+}
+
+#footer .siteMap a{
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	color: #fff;
+	display: table-cell;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
+/* =================== FOOTER END =================== */
+
+/* =================== SCROLLBAR START =================== */
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #6d6d6d; 
+}
+/* =================== SCROLLBAR END =================== */

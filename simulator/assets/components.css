@@ -1,0 +1,86 @@
+#screen {
+	width: 99vw;
+	height: 100vh;
+	top: 0;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.component {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+}
+
+.light {
+	width: 60px;
+	height: 98px;
+}
+
+.switch {
+	width: 71px;
+	height: 70px;
+}
+
+.true {
+}
+
+.false {
+}
+
+.not {
+}
+
+.and {
+}
+
+.or {
+}
+
+circle{
+	width: 100px;
+	height: 100px;
+}
+
+path{
+	opacity: 0.4;
+}
+
+/* p#def {
+	font-size:1.7em;
+	text-align: left;
+} */
+
+#sym {
+	margin-right: 14px;
+}
+
+#gate {
+	margin-right: 30px;
+}
+
+#clearBtn{
+	position: fixed;
+	right: 0;
+	top: 45px;
+	margin-right: 137px;
+	z-index: 888;
+}
+
+#controls{
+	position: fixed;
+	right: 0;
+	top: 45px;
+	margin-right: 9px;
+	z-index: 888;
+	text-decoration: none;
+}
+
+.del {
+	background: none repeat 0px 0px red;
+}
+
+.dropdown-menu{
+	height: 500px;
+	overflow-y: scroll;
+}

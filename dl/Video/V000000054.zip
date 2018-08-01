@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  filesize(): stat failed for /misc/dl/Q000000004_logo.zip in <b>C:\xampp\htdocs\LogicPortal\includes\download.inc.php</b> on line <b>14</b><br />
+<br />
+<b>Warning</b>:  readfile(/misc/dl/Q000000004_logo.zip): failed to open stream: No such file or directory in <b>C:\xampp\htdocs\LogicPortal\includes\download.inc.php</b> on line <b>15</b><br />
